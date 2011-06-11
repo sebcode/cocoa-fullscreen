@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		962A7CF513910A740029A23A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962A7CF413910A740029A23A /* Cocoa.framework */; };
+		962A7CFF13910A740029A23A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 962A7CFD13910A740029A23A /* InfoPlist.strings */; };
+		962A7D0213910A740029A23A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A7D0113910A740029A23A /* main.m */; };
+		962A7D0513910A740029A23A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 962A7D0313910A740029A23A /* Credits.rtf */; };
+		962A7D0813910A740029A23A /* fullscreenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A7D0713910A740029A23A /* fullscreenAppDelegate.m */; };
+		962A7D0B13910A740029A23A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 962A7D0913910A740029A23A /* MainMenu.xib */; };
+		965DEBE713916407003AA4E8 /* FullscreenWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 965DEBE613916407003AA4E8 /* FullscreenWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		962A7CF013910A740029A23A /* fullscreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fullscreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		962A7CF413910A740029A23A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		962A7CF713910A740029A23A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		962A7CF813910A740029A23A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		962A7CF913910A740029A23A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		962A7CFC13910A740029A23A /* fullscreen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fullscreen-Info.plist"; sourceTree = "<group>"; };
+		962A7CFE13910A740029A23A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		962A7D0013910A740029A23A /* fullscreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fullscreen-Prefix.pch"; sourceTree = "<group>"; };
+		962A7D0113910A740029A23A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		962A7D0413910A740029A23A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		962A7D0613910A740029A23A /* fullscreenAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fullscreenAppDelegate.h; sourceTree = "<group>"; };
+		962A7D0713910A740029A23A /* fullscreenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fullscreenAppDelegate.m; sourceTree = "<group>"; };
+		962A7D0A13910A740029A23A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		965DEBE513916407003AA4E8 /* FullscreenWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullscreenWindow.h; sourceTree = "<group>"; };
+		965DEBE613916407003AA4E8 /* FullscreenWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullscreenWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		962A7CED13910A740029A23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962A7CF513910A740029A23A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		962A7CE513910A740029A23A = {
+			isa = PBXGroup;
+			children = (
+				962A7CFA13910A740029A23A /* fullscreen */,
+				962A7CF313910A740029A23A /* Frameworks */,
+				962A7CF113910A740029A23A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		962A7CF113910A740029A23A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				962A7CF013910A740029A23A /* fullscreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		962A7CF313910A740029A23A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				962A7CF413910A740029A23A /* Cocoa.framework */,
+				962A7CF613910A740029A23A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		962A7CF613910A740029A23A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				962A7CF713910A740029A23A /* AppKit.framework */,
+				962A7CF813910A740029A23A /* CoreData.framework */,
+				962A7CF913910A740029A23A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		962A7CFA13910A740029A23A /* fullscreen */ = {
+			isa = PBXGroup;
+			children = (
+				962A7D0613910A740029A23A /* fullscreenAppDelegate.h */,
+				962A7D0713910A740029A23A /* fullscreenAppDelegate.m */,
+				965DEBE513916407003AA4E8 /* FullscreenWindow.h */,
+				965DEBE613916407003AA4E8 /* FullscreenWindow.m */,
+				962A7D0913910A740029A23A /* MainMenu.xib */,
+				962A7CFB13910A740029A23A /* Supporting Files */,
+			);
+			path = fullscreen;
+			sourceTree = "<group>";
+		};
+		962A7CFB13910A740029A23A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				962A7CFC13910A740029A23A /* fullscreen-Info.plist */,
+				962A7CFD13910A740029A23A /* InfoPlist.strings */,
+				962A7D0013910A740029A23A /* fullscreen-Prefix.pch */,
+				962A7D0113910A740029A23A /* main.m */,
+				962A7D0313910A740029A23A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		962A7CEF13910A740029A23A /* fullscreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962A7D0E13910A740029A23A /* Build configuration list for PBXNativeTarget "fullscreen" */;
+			buildPhases = (
+				962A7CEC13910A740029A23A /* Sources */,
+				962A7CED13910A740029A23A /* Frameworks */,
+				962A7CEE13910A740029A23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fullscreen;
+			productName = fullscreen;
+			productReference = 962A7CF013910A740029A23A /* fullscreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		962A7CE713910A740029A23A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 962A7CEA13910A740029A23A /* Build configuration list for PBXProject "fullscreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 962A7CE513910A740029A23A;
+			productRefGroup = 962A7CF113910A740029A23A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				962A7CEF13910A740029A23A /* fullscreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		962A7CEE13910A740029A23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962A7CFF13910A740029A23A /* InfoPlist.strings in Resources */,
+				962A7D0513910A740029A23A /* Credits.rtf in Resources */,
+				962A7D0B13910A740029A23A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		962A7CEC13910A740029A23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962A7D0213910A740029A23A /* main.m in Sources */,
+				962A7D0813910A740029A23A /* fullscreenAppDelegate.m in Sources */,
+				965DEBE713916407003AA4E8 /* FullscreenWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		962A7CFD13910A740029A23A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962A7CFE13910A740029A23A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		962A7D0313910A740029A23A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962A7D0413910A740029A23A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		962A7D0913910A740029A23A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962A7D0A13910A740029A23A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		962A7D0C13910A740029A23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		962A7D0D13910A740029A23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		962A7D0F13910A740029A23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fullscreen/fullscreen-Prefix.pch";
+				INFOPLIST_FILE = "fullscreen/fullscreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		962A7D1013910A740029A23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fullscreen/fullscreen-Prefix.pch";
+				INFOPLIST_FILE = "fullscreen/fullscreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		962A7CEA13910A740029A23A /* Build configuration list for PBXProject "fullscreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962A7D0C13910A740029A23A /* Debug */,
+				962A7D0D13910A740029A23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962A7D0E13910A740029A23A /* Build configuration list for PBXNativeTarget "fullscreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962A7D0F13910A740029A23A /* Debug */,
+				962A7D1013910A740029A23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 962A7CE713910A740029A23A /* Project object */;
+}

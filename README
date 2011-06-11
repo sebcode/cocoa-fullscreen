@@ -1,0 +1,17 @@
+XCode 4 Project Template for fullscreen switching
+by Sebastian Volland
+
+Switching to fullscreen and back on a Mac is a bit tricky, especially
+if you don't use OpenGL and also want to switch to a lower display
+resolution.
+
+There is a bunch of sample code available on the net, but I didn't
+find a full sample project, so here is one.
+
+This project consists of a window with one button: "Toggle
+Fullscreen". If you click this button, the display resolution is
+switched to 640x480x16 and you see the application window taking up
+the entire screen. On multi-monitor setups, the first screen is used.
+Clicking the button again or quitting the application restores the
+display resolution.
+
